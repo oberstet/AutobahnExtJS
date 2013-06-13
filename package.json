@@ -1,0 +1,11 @@
+{
+    "name": "autobahnextjs",
+    "type": "code",
+    "creator": "Record Evolution",
+    "summary": "Short summary",
+    "detailedDescription": "Long description of package",
+    "version": "0.5.0",
+    "compatVersion": "0.0.0",
+    "format": "1",
+    "local": true
+}

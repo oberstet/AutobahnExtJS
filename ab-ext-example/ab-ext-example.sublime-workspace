@@ -1,0 +1,1325 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"port",
+				"portletstore"
+			],
+			[
+				"T",
+				"ToolTip"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"activity",
+				"activitystream"
+			],
+			[
+				"ac",
+				"activeSheet"
+			],
+			[
+				"locked",
+				"locked_by_user"
+			],
+			[
+				"schema",
+				"schemaName"
+			],
+			[
+				"new",
+				"newCard"
+			],
+			[
+				"acti",
+				"activate"
+			],
+			[
+				"pipe",
+				"pipeworkshopview"
+			],
+			[
+				"U",
+				"UsedSources"
+			],
+			[
+				"la",
+				"lagun-inset"
+			],
+			[
+				"getS",
+				"getSelection"
+			],
+			[
+				"Key",
+				"keyNodes"
+			],
+			[
+				"getC",
+				"getContainedPackages"
+			],
+			[
+				"login",
+				"loginAttempt"
+			],
+			[
+				"topic",
+				"topicBase"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"cook",
+				"cookieDomain"
+			],
+			[
+				"w",
+				"websocketURI"
+			],
+			[
+				"ret",
+				"retryDelay"
+			],
+			[
+				"au",
+				"autobahn"
+			],
+			[
+				"on",
+				"onWebMQReady"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"show",
+				"showTableGraph"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ab-ext-example.html",
+			"settings":
+			{
+				"buffer_size": 2023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "autobahnextjs-dev.js",
+			"settings":
+			{
+				"buffer_size": 29237,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marko/git/record_evolution/re_web_app/app/view/importworkshop/ColumnContent.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/frame/NavButtons.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/Frame.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/RawTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeworkshop/PipeWorkshop.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/evolutiontables/EvolutionTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/frame/MasterDock.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/Viewport.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/PipeWorkshop.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeworkshop/PipeOverview.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeworkshop/AvailablePipes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/reportworkshop/ReportWorkshop.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/importworkshop/FileWatch.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/app.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/userprofile/LoginPanel.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/userprofile/LoginViewport.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/evolutiontables/TableTreeList.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipetables/PipeTableList.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/importworkshop/FileUploadGrid.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/dashboard/ActivityStream.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipetables/PipeTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/rawtables/TableList.js",
+		"/Users/marko/git/record_evolution/re_web_app/index.php",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/evolutiontables/RadialGraph.js",
+		"/Users/marko/git/record_evolution/re_web_app/sass/etc/RE_Lagun.scss",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/frame/NavButtons_old.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/model/Activity.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/AvailablePipes.js",
+		"/Users/marko/git/record_evolution/re_web_app/.sencha/app/sencha.cfg",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/dashboard/Dashboard.js",
+		"/Users/marko/git/record_evolution/re_web_app/build/RE/production/index.php",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/app/WampApplication.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/form/Basic.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/package.json",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/.sencha/package/sencha.cfg",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/form/action/WampSubmit.js",
+		"/Users/marko/git/record_evolution/re_web_app/build/RE/production/.gitignore",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/reportworkshop/ColumnConstruction.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/rawtables/ColumnSettings.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/evolutiontables/ColumnSettings.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipetables/ColumnSettings.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/evolutiontables/RefersToTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/bootstrap.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/data/proxy/WampProxy.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/build/autobahnextjs-dev.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/data/Store.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/data/TreeStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/ext/ext-dev.js",
+		"/Users/marko/git/record_evolution/re_web_app/ext/src/data/Store.js",
+		"/Users/marko/git/record_evolution/re_web_app/ext/ext-all-debug.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/data/TreeStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/Dashboard.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/Portlets.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/importworkshop/FileStructureForm.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/model/ReportTreeNode.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/ReportWorkshop.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ReportTree.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/share/DynamicGrid.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/share/x_d3Canvas.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/form/action/WampLoad.js",
+		"/Users/marko/git/record_evolution/re_web_app/.sencha/app/build.properties",
+		"/Users/marko/git/record_evolution/re_web_app/build/RE/production/all-classes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeworkshop/PipeTarget.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/admin/REControl.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/reportworkshop/ReportAttributes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeworkshop/PipeQuery.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/RawTableColumns.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/AttachedPipes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/CommonTargetPipes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ContainedPackages.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/Coworkers.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/DateColumns.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/EvolutionColumns.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/EvolutionTableList.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/EvolutionTableTree.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/EvoTableTags.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/FileColumns.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/Files.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/FilterCombo.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/FreezeDates.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/HistOperations.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/IsReferedByTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/MonitorBlockedPipes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/MonitorBlockedTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/MonitorFlowLog.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/MonitorHistPipeErrors.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/MonitorImportPipeErrors.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/MonitorRunSets.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/OverviewEdges.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/OverviewEvoTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/OverviewPipes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeAssistAttributes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeAssistDateCombo.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeAssistEvoColumns.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeAssistNoAttributes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeTableColumns.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeTableList.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/PipeUsedSources.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/RawTableList.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/RefersToTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ReportAttributes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ReportColumnConstruction.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ReportGranularity.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ReportList.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/SessionLog.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/TimeGranularity.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/TimePeriods.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/Users.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/x_WebmqTreeStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/AlternativeDatatypes.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/ActionOptions.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/store/Activities.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/data/proxy/WampProxy.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/data/WampStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/data/WampTreeStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/ext/src/form/Basic.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/overrides/app/WampApplication.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/data/WampStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/packages/autobahnextjs/src/data/WampTreeStore.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeassistant/PipeAssistant.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/pipeassistant/Settings.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/frame/EvoSubNav.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/frame/ImportSubNav.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/share/LockMessage.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/view/frame/RawSubNav.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/EvolutionTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/PipeTables.js",
+		"/Users/marko/git/record_evolution/re_web_app/app/controller/PipeAssistant.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"-*.min.*,-/Users/marko/git/record_evolution/re_web_app/build*, -ext/*, -packages/*, -resources/*",
+			"-*.min.*,-/Users/marko/git/record_evolution/re_web_app/build*, -ext/*, -packages/*, -ressources/*",
+			"-*.min.*,-/Users/marko/git/record_evolution/re_web_app/build*, -ext/*, -packages/*",
+			"-*.min.*,-/Users/marko/git/record_evolution/re_web_app/build*, -ext/*, - packages/*",
+			"-*.min.*,-/Users/marko/git/record_evolution/re_web_app/build*, -ext/*",
+			"-*.min.*,-/Users/marko/git/record_evolution/re_web_app/build*",
+			"-*.min.*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"onCancel",
+			"showTableGraph",
+			"onTableEdit",
+			"bold",
+			"grid-rownumbere",
+			"grid-row-numbere",
+			"glyph",
+			"4px",
+			"lagun-in",
+			"plugin.CellEditing",
+			"Ext.Img",
+			"plugin.CellEditing",
+			"plugin",
+			"Ext.grid.plugin.CellEditing",
+			"CellEditing",
+			"framework",
+			"AB",
+			"packages/autobahnextjs",
+			"getbyid",
+			"\"AvailablePipes\"",
+			"availablepipes",
+			"cosntr",
+			"cosn",
+			"Ext.data.AbstractStore",
+			"Ext.data.AbstractStore ",
+			"ext.data.store'",
+			"AB.data.proxy.WampProxy.oncreate",
+			"'AB.data.proxy.WampProxy.oncreate",
+			"AB.data.proxy.WampProxy.oncreate'",
+			"getRange()",
+			"portlets",
+			"portletstore",
+			"getRange",
+			"portletStore",
+			"a1",
+			"d3canvas",
+			"E.view.share.d3Canvas",
+			"overrides",
+			"basic",
+			"reporttree",
+			"reportsc",
+			"model.report",
+			"ReportTr",
+			"ReportList",
+			"reporttr",
+			"ReportTree",
+			"ReportTreeN",
+			"reporttreenode",
+			"RE.store.Dynamic",
+			"WampS",
+			"'wamp'",
+			"AB.",
+			"console.log(",
+			"kino",
+			"loadRecords(",
+			"add:",
+			"addpage",
+			"loadRecords",
+			"load(",
+			"postActivity",
+			"enlargeTextbox",
+			"wamp read",
+			"sort()",
+			"activesh",
+			"id:",
+			"retrieveEvoTable",
+			"onTableEdit",
+			"getLockMessage",
+			"setlock",
+			"currently taken by",
+			"onCancelSavePipe",
+			"makeEvoColumnList",
+			"attributes",
+			"keyNodes",
+			"makeEvoColumnList",
+			"userId",
+			"loadUsedSource",
+			"onColumnClick",
+			"addsour",
+			"addsou",
+			"usedSource",
+			"retrievePipe",
+			"onPipeEdit",
+			"onClickUsedSourceTables",
+			"pop",
+			"region",
+			"getuse",
+			"onCancelSavePipe",
+			"pipeworkshopbuttons2",
+			"pipeworkshopbuttons",
+			"activatePipeSheet",
+			"#pipeworkshoptabs",
+			"pipeworkshoptabs",
+			"activatePipeSheet",
+			"pipecenterpanel",
+			"pipeworkshopCenterPanel",
+			"pipelockmessage",
+			"ipeWorkshopHeader",
+			"pipeworkshoph",
+			"pipeworkshopCenterPanel",
+			"getAvailablePipes",
+			"getusedSources",
+			"usedSources",
+			"pipeusedsources",
+			"source",
+			"usedSourceTables",
+			"pipeEdit",
+			"retrievePipe",
+			"onPipeEdit",
+			"makeEvoColumnList",
+			"keynodes",
+			"makeEvoColumnList",
+			"keynodes",
+			"makeEvoColumnList",
+			"keyNodes",
+			"makeEvoColumnList",
+			"deselect",
+			"keyNodes",
+			"makeEvoColumnList",
+			"startApp",
+			"session",
+			"ext.c",
+			"onTableEdit",
+			"showTableGraph",
+			"getContainedPackages().",
+			"pressed",
+			"removeAll(true)",
+			"clearRawTableSett"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"pipeworkshopbuttons",
+			"pipeworkshopbuttons2",
+			"ipeHeaderControl",
+			"this.owner.api",
+			"lagun-images",
+			"absession",
+			"Ext.",
+			"AB.",
+			"Ext.data"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ab-ext-example.html",
+					"settings":
+					{
+						"buffer_size": 2023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1082,
+								1082
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "autobahnextjs-dev.js",
+					"settings":
+					{
+						"buffer_size": 29237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3909,
+								3909
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1148.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.459279438399,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 88.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"auto",
+				"autobahnextjs-dev.js"
+			],
+			[
+				"columncon",
+				"app/view/importworkshop/ColumnContent.js"
+			],
+			[
+				"granu",
+				"app/view/reportworkshop/ReportGranularity.js"
+			],
+			[
+				"reports",
+				"app/view/reportworkshop/ReportScout.js"
+			],
+			[
+				"frame",
+				"app/controller/Frame.js"
+			],
+			[
+				"navb",
+				"app/view/frame/NavButtons.js"
+			],
+			[
+				"raw",
+				"app/controller/RawTables.js"
+			],
+			[
+				"viewpo",
+				"app/view/Viewport.js"
+			],
+			[
+				"activity",
+				"app/view/dashboard/ActivityStream.js"
+			],
+			[
+				"fileup",
+				"app/view/importworkshop/FileUploadGrid.js"
+			],
+			[
+				"reportwork",
+				"app/view/reportworkshop/ReportWorkshop.js"
+			],
+			[
+				"filew",
+				"app/view/importworkshop/FileWatch.js"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"view",
+				"app/view/Viewport.js"
+			],
+			[
+				"loginp",
+				"app/view/userprofile/LoginPanel.js"
+			],
+			[
+				"app",
+				"app/app.js"
+			],
+			[
+				"masterdock",
+				"app/view/frame/MasterDock.js"
+			],
+			[
+				"re_lagun",
+				"sass/etc/RE_Lagun.scss"
+			],
+			[
+				"lagun",
+				"sass/etc/RE_Lagun.scss"
+			],
+			[
+				"nav",
+				"app/view/frame/NavButtons_old.js"
+			],
+			[
+				"re_lagun_mi",
+				"sass/etc/RE_Lagun_mixins.scss"
+			],
+			[
+				"evol",
+				"app/view/evolutiontables/EvolutionTables.js"
+			],
+			[
+				"pipew",
+				"app/view/pipeworkshop/PipeWorkshop.js"
+			],
+			[
+				"dash",
+				"app/view/dashboard/Dashboard.js"
+			],
+			[
+				"activit",
+				"app/view/dashboard/ActivityStream.js"
+			],
+			[
+				"radialg",
+				"app/view/evolutiontables/RadialGraph.js"
+			],
+			[
+				"wamps",
+				"packages/autobahnextjs/src/form/action/WampSubmit.js"
+			],
+			[
+				"boot",
+				"bootstrap.js"
+			],
+			[
+				"wampa",
+				"packages/autobahnextjs/src/app/WampApplication.js"
+			],
+			[
+				"ext-dev",
+				"ext/ext-dev.js"
+			],
+			[
+				"store",
+				"ext/src/data/Store.js"
+			],
+			[
+				"ava",
+				"app/view/pipeworkshop/AvailablePipes.js"
+			],
+			[
+				"autobahnextjs-",
+				"packages/autobahnextjs/build/autobahnextjs-dev.js"
+			],
+			[
+				"trees",
+				"packages/autobahnextjs/overrides/data/TreeStore.js"
+			],
+			[
+				"wamppr",
+				"packages/autobahnextjs/src/data/proxy/WampProxy.js"
+			],
+			[
+				"dynami",
+				"app/view/share/DynamicGrid.js"
+			],
+			[
+				"dynamic",
+				"app/view/share/DynamicGrid.js"
+			],
+			[
+				"autobahn-",
+				"packages/autobahnextjs/build/autobahnextjs-dev.js"
+			],
+			[
+				"basic",
+				"packages/autobahnextjs/overrides/form/Basic.js"
+			],
+			[
+				"wampl",
+				"packages/autobahnextjs/src/form/action/WampLoad.js"
+			],
+			[
+				"bootst",
+				"bootstrap.js"
+			],
+			[
+				"reportt",
+				"app/store/ReportTree.js"
+			],
+			[
+				"reportw",
+				"app/controller/ReportWorkshop.js"
+			],
+			[
+				"all-c",
+				"build/RE/production/all-classes.js"
+			],
+			[
+				"reportwo",
+				"app/controller/ReportWorkshop.js"
+			],
+			[
+				"reporttr",
+				"app/model/ReportTreeNode.js"
+			],
+			[
+				"pipequ",
+				"app/view/pipeworkshop/PipeQuery.js"
+			],
+			[
+				"reporta",
+				"app/view/reportworkshop/ReportAttributes.js"
+			],
+			[
+				"filestru",
+				"app/view/importworkshop/FileStructureForm.js"
+			],
+			[
+				"wampp",
+				"packages/autobahnextjs/src/data/proxy/WampProxy.js"
+			],
+			[
+				"pipetarg",
+				"app/view/pipeworkshop/PipeTarget.js"
+			],
+			[
+				"filewat",
+				"app/view/importworkshop/FileWatch.js"
+			],
+			[
+				"filestructu",
+				"app/view/importworkshop/FileStructureForm.js"
+			],
+			[
+				"rawtablel",
+				"app/store/RawTableList.js"
+			],
+			[
+				"recon",
+				"app/view/admin/REControl.js"
+			],
+			[
+				"autobahne",
+				"packages/autobahnextjs/build/autobahnextjs-dev.js"
+			],
+			[
+				"basi",
+				"ext/src/form/Basic.js"
+			],
+			[
+				"wampt",
+				"packages/autobahnextjs/overrides/data/WampTreeStore.js"
+			],
+			[
+				"wamp",
+				"packages/autobahnextjs/src/app/WampApplication.js"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"ext-all-",
+				"ext/ext-all-debug.js"
+			],
+			[
+				"activ",
+				"app/model/Activity.js"
+			],
+			[
+				"wamptree",
+				"packages/autobahnextjs/src/data/WampTreeStore.js"
+			],
+			[
+				"wampstor",
+				"packages/autobahnextjs/src/data/WampStore.js"
+			],
+			[
+				"dashb",
+				"app/view/dashboard/Dashboard.js"
+			],
+			[
+				"da",
+				"app/controller/Dashboard.js"
+			],
+			[
+				"activitie",
+				"app/store/Activities.js"
+			],
+			[
+				"das",
+				"app/controller/Dashboard.js"
+			],
+			[
+				"lock",
+				"app/view/share/LockMessage.js"
+			],
+			[
+				"evolutiont",
+				"app/controller/EvolutionTables.js"
+			],
+			[
+				"importsub",
+				"app/view/frame/ImportSubNav.js"
+			],
+			[
+				"evosu",
+				"app/view/frame/EvoSubNav.js"
+			],
+			[
+				"rawsub",
+				"app/view/frame/RawSubNav.js"
+			],
+			[
+				"rawt",
+				"app/controller/RawTables.js"
+			],
+			[
+				"pipeta",
+				"app/controller/PipeTables.js"
+			],
+			[
+				"lockmess",
+				"app/view/share/LockMessage.js"
+			],
+			[
+				"pipeass",
+				"app/controller/PipeAssistant.js"
+			],
+			[
+				"pipeassistse",
+				"app/view/pipeassistant/Settings.js"
+			],
+			[
+				"navbu",
+				"app/view/frame/NavButtons.js"
+			],
+			[
+				"pipet",
+				"app/controller/PipeTables.js"
+			],
+			[
+				"rawtab",
+				"app/controller/RawTables.js"
+			],
+			[
+				"evolution",
+				"app/controller/EvolutionTables.js"
+			],
+			[
+				"importw",
+				"app/controller/ImportWorkshop.js"
+			],
+			[
+				"pipetar",
+				"app/view/pipeworkshop/PipeTarget.js"
+			],
+			[
+				"used",
+				"app/store/PipeUsedSources.js"
+			],
+			[
+				"reli",
+				"app/RELibrary.js"
+			],
+			[
+				"lagun_mix",
+				"sass/etc/RE_Lagun_mixins.scss"
+			],
+			[
+				"pipeh",
+				"app/view/pipeworkshop/PipeHeaderControl.js"
+			],
+			[
+				"pipeheadr",
+				"app/view/pipeworkshop/PipeHeaderControl.js"
+			],
+			[
+				"availa",
+				"app/view/pipeworkshop/AvailablePipes.js"
+			],
+			[
+				"samp",
+				"app/view/importworkshop/SampleTabs.js"
+			],
+			[
+				"pipesam",
+				"app/view/pipeworkshop/SampleTabs.js"
+			],
+			[
+				"codemi",
+				"app/view/share/CodeMirror.js"
+			],
+			[
+				"viewp",
+				"app/view/Viewport.js"
+			],
+			[
+				"tablet",
+				"app/view/evolutiontables/TableToolbar.js"
+			],
+			[
+				"pipeheader",
+				"app/view/pipeworkshop/PipeHeaderControl.js"
+			],
+			[
+				"tabletoo",
+				"app/view/evolutiontables/TableToolbar.js"
+			],
+			[
+				"pipeq",
+				"app/view/pipeworkshop/PipeQuery.js"
+			],
+			[
+				"fra",
+				"app/controller/Frame.js"
+			],
+			[
+				"pipes",
+				"app/view/frame/PipeSubNav.js"
+			],
+			[
+				"pipetab",
+				"app/view/pipetables/PipeTables.js"
+			],
+			[
+				"avail",
+				"app/view/pipeworkshop/AvailablePipes.js"
+			],
+			[
+				"radial",
+				"app/view/evolutiontables/RadialGraph.js"
+			],
+			[
+				"autobahn",
+				"resources/autobahn/autobahn.js"
+			],
+			[
+				"wampap",
+				"packages/autobahnextjs/src/app/WampApplication.js"
+			],
+			[
+				"wampsto",
+				"packages/autobahnextjs/src/data/WampStore.js"
+			],
+			[
+				"autobahnextjs-d",
+				"packages/autobahnextjs/build/autobahnextjs-dev.js"
+			],
+			[
+				"autob",
+				"packages/autobahnextjs/build/autobahnextjs.js"
+			],
+			[
+				"dynam",
+				"app/view/share/DynamicGrid.js"
+			],
+			[
+				"contained",
+				"app/model/ContainedPackage.js"
+			],
+			[
+				"columnse",
+				"app/view/rawtables/ColumnSettings.js"
+			],
+			[
+				"rawtable",
+				"app/controller/RawTables.js"
+			],
+			[
+				"modif",
+				"app/view/importworkshop/ColumnModify.js"
+			],
+			[
+				"re_con",
+				"RE_config.php"
+			],
+			[
+				"monitorf",
+				"app/store/MonitorFlowLog.js"
+			],
+			[
+				"session",
+				"app/store/SessionLog.js"
+			],
+			[
+				"passwor",
+				"app/view/userprofile/PasswordChange.js"
+			],
+			[
+				"login",
+				"app/view/userprofile/LoginPanel.js"
+			],
+			[
+				"re_config",
+				"RE_config.php"
+			],
+			[
+				"xhr",
+				"app/php/xhrupload.php"
+			],
+			[
+				"passw",
+				"app/view/userprofile/PasswordChange.js"
+			],
+			[
+				"indexp",
+				"index.php"
+			],
+			[
+				"lagun.css",
+				"resources/css/RE_Lagun.css"
+			],
+			[
+				"transp",
+				"sass/etc/Lagun_transparent_grid.scss"
+			],
+			[
+				"trans",
+				"resources/css/Lagun_transparent_grid.css"
+			],
+			[
+				"master",
+				"app/view/frame/MasterDock.js"
+			],
+			[
+				"lagun_mi",
+				"sass/etc/RE_Lagun_mixins.scss"
+			],
+			[
+				"admin",
+				"app/controller/Admin.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}
