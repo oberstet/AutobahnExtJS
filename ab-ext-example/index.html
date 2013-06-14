@@ -1,0 +1,67 @@
+<!DOCTYPE HTML >
+<html>
+    <head>        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+  
+        <script type="text/javascript" src="ext-all-dev.js"></script>
+        <link rel="stylesheet" type="text/css" href="ext-theme-neptune-all.css">
+        <script type="text/javascript" src="ext-theme-neptune.js"></script>
+
+        <!-- Loading WebMQ Realtime messaging Library -->
+        <script type="text/javascript" src="autobahn.min.js"></script>  
+        <script src="autobahnextjs-dev.js"></script>
+
+
+        <title>Realtime Ext JS Example</title>
+    </head>
+
+   
+    <script>
+     ab.debug(true);
+     Ext.application({
+       extend: 'AB.app.WampApplication',
+       name:'ABexample',
+
+       // the WAMP config
+       websocketURI: 'ws://127.0.0.1:9095/ws',
+
+       launch: function(){
+
+        var v = Ext.create('Ext.container.Viewport',{
+            layout: {
+              type:'vbox',
+              pack:'center',
+              align:'center'
+            },
+            items: [{
+              xtype:'grid',
+              height:400,
+              width: 600,
+              title: 'Hello WAMP',
+              store: Ext.create('Ext.data.Store',{
+                   autoLoad: true,
+                   // debug:true,
+                   proxy:{
+                    type: 'wamp',
+                    api:{
+                      read: 'http://tavendo.de/webmq/demo/koform#read',
+                      oncreate: 'http://tavendo.de/webmq/demo/koform#oncreate'
+                    }
+                   },
+                   fields:['id', 'name', 'orderNumber','weight','size','inStock','price']
+                }), // store end
+              columns: [
+                  { text: 'Id',  dataIndex: 'id' },
+                  { text: 'Name',  dataIndex: 'name' },
+                  { text: 'Order Number', dataIndex: 'orderNumber', flex: 1 },
+                  { text: 'Weight', dataIndex: 'weight' }
+              ],
+            }]
+        });
+       }
+   });
+
+    </script>
+
+</html>
