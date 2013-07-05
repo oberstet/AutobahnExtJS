@@ -1,8 +1,7 @@
-<!DOCTYPE HTML >
+<!DOCTYPE html>
 <html>
     <head>        
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    
   
         <script type="text/javascript" src="ext-all-dev.js"></script>
         <link rel="stylesheet" type="text/css" href="ext-theme-neptune-all.css">
@@ -12,21 +11,54 @@
         <script type="text/javascript" src="autobahn.min.js"></script>  
         <script src="autobahnextjs-dev.js"></script>
 
-
-        <title>Realtime Ext JS Example</title>
+        <title>WebMQ Form Demo</title>
     </head>
 
    
     <script>
      ab.debug(true);
+     var baseUri = "http://tavendo.de/webmq/demo/koform#";
+
      Ext.application({
        extend: 'AB.app.WampApplication',
        name:'ABexample',
 
        // the WAMP config
-       websocketURI: 'ws://127.0.0.1:9095/ws',
+       websocketURI: 'ws://127.0.0.1/ws',
 
        launch: function(){
+
+         // create ExtJS model
+         //
+         Ext.define('Product', {
+            extend: 'Ext.data.Model',
+             proxy: {
+               type: 'wamp',
+               //debug: true,
+               // WAMP API
+               //
+               api: {
+                  // RPC URIs for CRUD operations
+                  create: baseUri + 'create',
+                  read: baseUri + 'read',
+                  update: baseUri + 'update',
+                  destroy: baseUri + 'delete',
+
+                  // Topic URIs for CRUD events
+                  oncreate: baseUri + 'oncreate',
+                  onupdate: baseUri + 'onupdate',
+                  ondestroy: baseUri + 'ondelete'
+               }
+            },
+            fields: ['id',
+                     'name',
+                     'orderNumber',
+                     'weight',
+                     'size',
+                     'inStock',
+                     'price'],
+            idProperty: "id"
+         });
 
         var v = Ext.create('Ext.container.Viewport',{
             layout: {
@@ -36,26 +68,20 @@
             },
             items: [{
               xtype:'grid',
-              height:400,
-              width: 600,
-              title: 'Hello WAMP',
-              store: Ext.create('Ext.data.Store',{
-                   autoLoad: true,
-                   // debug:true,
-                   proxy:{
-                    type: 'wamp',
-                    api:{
-                      read: 'http://tavendo.de/webmq/demo/koform#read',
-                      oncreate: 'http://tavendo.de/webmq/demo/koform#oncreate'
-                    }
-                   },
-                   fields:['id', 'name', 'orderNumber','weight','size','inStock','price']
-                }), // store end
+              height: 400,
+              width: 800,
+              title: 'WebMQ Edit Form Demo',
+              store: Ext.create('Ext.data.Store', {
+                  autoLoad: true,
+                  model: 'Product'
+              }),
               columns: [
-                  { text: 'Id',  dataIndex: 'id' },
-                  { text: 'Name',  dataIndex: 'name' },
                   { text: 'Order Number', dataIndex: 'orderNumber', flex: 1 },
-                  { text: 'Weight', dataIndex: 'weight' }
+                  { text: 'Name',  dataIndex: 'name' },
+                  { text: 'Price', dataIndex: 'price' },
+                  { text: 'Weight', dataIndex: 'weight' },
+                  { text: 'Size', dataIndex: 'size' },
+                  { text: 'In Stock', dataIndex: 'inStock' }
               ],
             }]
         });
