@@ -1,4 +1,2 @@
-AutobahnExtJS
-=============
+# autobahnextjs - Read Me
 
-AutobahnJS and Sencha/ExtJS Integration
