@@ -56,14 +56,14 @@ Ext.define('AB.data.proxy.WampProxy', {
         // me.callParent([config]);
         AB.data.proxy.WampProxy.superclass.constructor.apply(me, arguments);
 
-        me.session = absession;  // absession is not available on load time. only when webMQ connect has been established!
+        me.session = absession; // absession is not available on load time. only when webMQ connect has been established!
         // The problem is that most store classes get the session config at the class level on load time.
         // This is the reaseon why instead we use the global absession object subsequently.
 
         me.api = Ext.apply({}, config.api || me.api);
         // console.log('wampproxy ', arguments);
         if (me.api.oncreate) {
-            me.session .subscribe(me.api.oncreate, function(topic, event) {
+            me.session.subscribe(me.api.oncreate, function(topic, event) {
                 if (me.debug) {
                     console.log("AB.data.proxy.WampProxy.oncreate", event);
                 }
@@ -73,7 +73,7 @@ Ext.define('AB.data.proxy.WampProxy', {
         }
 
         if (me.api.onupdate) {
-            me.session .subscribe(me.api.onupdate, function(topic, event) {
+            me.session.subscribe(me.api.onupdate, function(topic, event) {
                 if (me.debug) {
                     console.log("AB.data.proxy.WampProxy.onupdate", event);
                 }
@@ -83,7 +83,7 @@ Ext.define('AB.data.proxy.WampProxy', {
         }
 
         if (me.api.ondestroy) {
-            me.session .subscribe(me.api.ondestroy, function(topic, event) {
+            me.session.subscribe(me.api.ondestroy, function(topic, event) {
                 if (me.debug) {
                     console.log("AB.data.proxy.WampProxy.ondestroy", event);
                 }
@@ -309,6 +309,7 @@ Ext.define('AB.data.proxy.WampProxy', {
         // }
 
         // issue WAMP RPC
+        console.log('WAMP read with params ', this.api.read, params);
         this.session.call(this.api.read, params).then(
 
         // process WAMP RPC success result
@@ -319,10 +320,10 @@ Ext.define('AB.data.proxy.WampProxy', {
             reader.applyDefaults = true;
 
             result = reader.read(res);
-            result.total = Math.max(result.total,me.total || 0);  // the proxy has to know the total number beforehand for 
-                                      // infinite scrolling to work. In the grid reconfigure scenario this can be set
-                                      // when getting the grid structure. In a regular scenario you either have to set
-                                      // the page size large enough for one shot loads or set the "total" prperty on the proxy directly.
+            result.total = Math.max(result.total, me.total || 0); // the proxy has to know the total number beforehand for 
+            // infinite scrolling to work. In the grid reconfigure scenario this can be set
+            // when getting the grid structure. In a regular scenario you either have to set
+            // the page size large enough for one shot loads or set the "total" prperty on the proxy directly.
 
             Ext.apply(operation, {
                 response: res,
@@ -343,7 +344,7 @@ Ext.define('AB.data.proxy.WampProxy', {
         function(err) {
             me.setException(operation, err.desc);
             me.fireEvent('exception', this, err.desc, operation);
-
+            console.log('Wamp read error occured', operation);
             if (typeof callback === 'function') {
                 callback.call(scope || me, operation);
             }

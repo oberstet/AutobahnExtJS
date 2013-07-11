@@ -17,7 +17,7 @@ Ext.define('AB.form.action.WampLoad', {
     type: 'wampload',
 
     run: function() {
-        console.log('where is the wamp load?');
+        // console.log('where is the wamp load?');
 
         var me = this;
         var params = me.getParams();
