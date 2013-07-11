@@ -19,8 +19,10 @@ Ext.define('AB.form.action.WampSubmit', {
     doSubmit: function() {
 
         var me = this;
-        var params = me.getParams();
+        var params = me.getParams('jsonData');
 
+        me.api.session = me.api.session || absession;
+        
         if (me.api.debug) {
             console.log("AB.form.action.WampSubmit.doSubmit", me.api, params);
         }

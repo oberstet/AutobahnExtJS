@@ -61,8 +61,9 @@ Ext.define('AB.data.TreeStore', {
                 me.getRootNode().insertChild(0, obj);
             } else {
                 var nodeParam = me.model.prototype.nodeParam || 'node';
-                console.log('insert in tree node ', nodeParam, obj['father_node']);
                 var node = me.getRootNode().findChild(nodeParam, obj['father_node']);
+                console.log('insert in tree node ', nodeParam, obj['father_node'],me.getRootNode(),node);
+
                 if (node && node.isLoaded()) {
                     node.insertChild(0, obj);
                 } else {

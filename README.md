@@ -1,7 +1,6 @@
-AutobahnExtJS
-=============
+# AutobahnExtJS
 
-AutobahnJS and Sencha/ExtJS Integration
+AutobahnJS and Sencha/ExtJS Integration.
 
 There are two ways to use AutobahnJS with Sencha ExtJS.
 
@@ -26,4 +25,5 @@ Then you can do
     sencha app build 
     
 as usual.
+
 You can find more details on this process under Look at http://docs.sencha.com/extjs/4.2.1/#!/guide/command_package_authoring.
